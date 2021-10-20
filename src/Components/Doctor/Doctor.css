@@ -1,0 +1,23 @@
+.doctors-container{ background-color:#4A80B2;
+                    padding: 100px;
+                    margin: auto;
+}
+.doctors-intro{ text-align: center;
+                 }
+
+  .doctors-name{color: black;
+                font-weight: bold;}
+                 
+  
+.doctors-intro h2 {
+   font-size: 3rem;
+   font-weight: bold;
+ color: black;
+   margin-bottom: 20px;
+    font-family: 'Source Serif Pro', serif;}
+
+.doctors-intro p{font-size: 2rem;
+                font-weight: bold;
+                 color: black;
+                    font-family: 'Source Serif Pro', serif;
+                  }

@@ -1,0 +1,47 @@
+.footer{
+    background-color:#093028;
+    color: white;
+    box-sizing: border-box;
+   
+    
+}
+
+/* .details {
+    padding: 50px 50px 20px 50px;
+} */
+
+.about-section{text-align: center;
+               padding: 0px 10px;}
+.about-text{ font-family: 'Source Serif Pro', serif;
+             font-size: 1.2rem;  }
+.Footer-header{
+      font-family: 'Source Serif Pro', serif;
+      font-size: 2rem;
+      font-weight: bold;
+     
+ }
+
+
+.navigator{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigator li a{
+           display: inline-block;
+          text-decoration: none;
+          color: white;
+          margin-bottom: 20px;
+}
+
+.copyRight{background-color: #f8f9fa;
+           color: rgb(17, 15, 15);}
+.copyRight p{
+    font-weight: bold;
+    font-size: 1.1rem;
+
+     width: 500px;
+     margin: auto;
+    text-align: center;
+    padding: 20px;
+}

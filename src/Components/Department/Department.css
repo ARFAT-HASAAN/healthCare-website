@@ -1,0 +1,10 @@
+.department{ background-color: #000046;
+             padding: 50px 0px; }
+
+
+.department-intro h2{ font-size: 3rem;
+                      color: white;
+                      font-weight: bold;
+                      text-align: center;
+                       padding: 20px 0px;
+                       }

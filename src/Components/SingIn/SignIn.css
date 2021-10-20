@@ -1,0 +1,50 @@
+.regester-form{
+    width: auto;
+     background-color: blanchedalmond;
+     padding: 100px 0px;
+     box-sizing: border-box;
+  
+
+}
+
+.form-container{
+     width: 400px;
+     box-shadow: 1px 1px 4px black;
+     border-radius: 10px;
+     padding: 30px;
+     background-color: white;
+     margin: auto;
+     text-align: center;
+}
+
+.form-container h2{
+      font-family: 'Source Serif Pro', serif;
+     font-weight: bold;
+     color: rgb(252, 12, 124);
+     
+     
+}
+
+.submit-btn{
+            border: none;
+             outline: none;
+             padding:7px;
+             background-color:rgb(252, 12, 124) ;
+             color: white;
+             border-radius: 10px;
+             font-weight: bold;}
+
+.google-btn{ border: none;
+             width: 100%;
+             /* outline: none; */
+             padding:7px;
+             background-color: white;
+             color: blue;
+
+             
+             border-radius: 10px; }
+
+form input { margin: 7px 0px;
+             width: 100%;
+             padding-left: 10px;
+             }

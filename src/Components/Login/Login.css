@@ -1,0 +1,27 @@
+.login-container{
+    background-color: rgb(220, 253, 200);
+    padding: 100px 0px;
+}
+
+.login-form{width: 400px;
+            margin: auto;
+            text-align: center;
+            box-shadow: 1px 1px 4px;
+            border-radius: 5px;
+            padding:20px;
+            background-color: white;
+          }
+.login-form h2 {
+           font-family: 'Source Serif Pro', serif;
+           font-size: 2rem;
+           font-weight: bold;
+           color: rgb(30, 59, 185);
+}
+
+.login-btn{ border: none;
+            outline: none;
+            border-radius: 7px;
+            background-color: rgb(30, 59, 185);
+           color: white;
+           font-weight: bold;
+          padding:7px; }

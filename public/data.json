@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Health Check",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/gWCPjyw/service-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Operation Theater",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/ZJkGY56/service-1.png"
+    },
+    {
+        "id": 3,
+        "title": "Pharmacy Support",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/ZGxnkVs/service-2.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Lat Tests",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/sHhGL7R/service-4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Ambulance Car",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/F6yLKbt/service-5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Intensive Care",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/XD7xpyV/service-3.jpg"
+    }
+]
