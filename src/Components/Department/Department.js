@@ -18,6 +18,7 @@ const Department = () => {
                 <div className='department-intro'>
 
                     <h2>Departments</h2>
+                    <hr className='hr' />
 
                 </div>
 

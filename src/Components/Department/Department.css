@@ -3,8 +3,18 @@
 
 
 .department-intro h2{ font-size: 3rem;
+                      
                       color: white;
+                      
                       font-weight: bold;
                       text-align: center;
                        padding: 20px 0px;
                        }
+
+.hr{ border-bottom: 4px solid white; }
+
+@media only screen and (max-width: 600px) {
+  
+    .department{padding: 10px 0px;}
+   
+}

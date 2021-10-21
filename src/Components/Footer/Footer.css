@@ -35,13 +35,18 @@
 }
 
 .copyRight{background-color: #f8f9fa;
-           color: rgb(17, 15, 15);}
+           color: rgb(17, 15, 15);
+           text-align: center;}
 .copyRight p{
     font-weight: bold;
     font-size: 1.1rem;
-
-     width: 500px;
-     margin: auto;
     text-align: center;
     padding: 20px;
+}
+
+ @media only screen and (max-width: 600px) {
+
+   .footer{text-align: center;
+            padding: 20px 0px;}
+   
 }

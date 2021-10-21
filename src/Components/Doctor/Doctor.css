@@ -1,5 +1,5 @@
 .doctors-container{ background-color:#4A80B2;
-                    padding: 100px;
+                   padding: 100px 0px;
                     margin: auto;
 }
 .doctors-intro{ text-align: center;
@@ -12,7 +12,7 @@
 .doctors-intro h2 {
    font-size: 3rem;
    font-weight: bold;
- color: black;
+ color: white;
    margin-bottom: 20px;
     font-family: 'Source Serif Pro', serif;}
 
@@ -21,3 +21,13 @@
                  color: black;
                     font-family: 'Source Serif Pro', serif;
                   }
+
+   @media only screen and (max-width: 600px) {
+
+     .doctors-container{ background-color:#4A80B2;
+                   padding: 20px 0px;
+                  
+}
+   
+   
+}
