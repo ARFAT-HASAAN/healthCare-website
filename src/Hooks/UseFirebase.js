@@ -1,6 +1,15 @@
 import FirebaseInitialiezed from "../Components/firebase/InitialiazedApp"
 
-import { GoogleAuthProvider, getAuth, signInWithPopup, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import {
+    GoogleAuthProvider,
+    getAuth,
+    signInWithPopup,
+    onAuthStateChanged,
+    signOut,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+    updateProfile
+} from "firebase/auth";
 import { useEffect, useState } from "react";
 
 
@@ -13,11 +22,15 @@ const UseFiebase = () => {
     const [email, setemail] = useState('')
     const [password, setPasswrd] = useState('')
     const [name, setName] = useState('')
+    const [error, setError] = useState('')
+    const [photo, setPhoto] = useState('')
+
 
     const Googleprovider = new GoogleAuthProvider();
     const auth = getAuth();
 
 
+    // sign with google 
     const SignWithGoogle = () => {
         setLoading(true)
 
@@ -41,13 +54,8 @@ const UseFiebase = () => {
             setLoading(false)
         })
 
-
-
-
         return () => unsubscribed;
     },
-
-
         [])
 
 
@@ -67,12 +75,23 @@ const UseFiebase = () => {
         setName(e?.target?.value)
     }
 
+    // get photo 
+    const getPhoto = (e) => {
+        setPhoto(e?.target?.value)
+    }
+
 
     // create new user 
     const NewUser = e => {
         e.preventDefault();
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((result) => {
 
-        return createUserWithEmailAndPassword(auth, email, password)
+                setUser(result?.user)
+                setUserName()
+            })
+
+
 
     }
 
@@ -81,10 +100,29 @@ const UseFiebase = () => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
             .then((res) => {
-                setUser(res.user);
+                setUser(res?.user);
+            })
+            .catch(error => {
+                setError(error)
             })
 
     };
+
+    // update uer profile 
+    const setUserName = () => {
+        updateProfile(auth.currentUser, {
+            displayName: name,
+            photoURL: photo,
+        }).then((result) => {
+            // setUser(result?.user)
+
+        }).catch((error) => {
+            setError(error)
+
+        })
+    }
+
+    // log out 
     const logout = () => {
         setLoading(true)
         const auth = getAuth();
@@ -106,7 +144,9 @@ const UseFiebase = () => {
         getPass,
         getName,
         NewUser,
-        signInWithEmailAndPassword
+        signInWithEmail,
+        error,
+        getPhoto
 
 
 

@@ -41,7 +41,7 @@ const Header = () => {
                             <Nav.Link as={Link} to='/login' >Login</Nav.Link>
 
 
-                            {user.email ?
+                            {user?.email ?
                                 <Button size="sm" variant="outline-danger" onClick={logout}>Logout</Button>
 
 

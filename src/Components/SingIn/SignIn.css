@@ -17,6 +17,8 @@
      text-align: center;
 }
 
+.form-container .error{color: red;}
+
 .form-container h2{
       font-family: 'Source Serif Pro', serif;
      font-weight: bold;
@@ -34,15 +36,7 @@
              border-radius: 10px;
              font-weight: bold;}
 
-.google-btn{ border: none;
-             width: 100%;
-             /* outline: none; */
-             padding:7px;
-             background-color: white;
-             color: blue;
 
-             
-             border-radius: 10px; }
 
 form input { margin: 7px 0px;
              width: 100%;

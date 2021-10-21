@@ -25,3 +25,14 @@
            color: white;
            font-weight: bold;
           padding:7px; }
+  
+          .google-btn{ border: none;
+             width: 100%;
+             /* outline: none; */
+             padding:7px;
+             background-color: blue;
+             color:white;
+             font-weight: bold;
+
+             
+             border-radius: 10px; }
