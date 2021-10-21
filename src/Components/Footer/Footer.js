@@ -1,9 +1,27 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome, faUserMd, faIdBadge, faAddressCard, faPhoneSquareAlt, faEnvelope, faMapMarkedAlt, faRoad } from '@fortawesome/free-solid-svg-icons'
 import { Col, Container, Row, Stack } from 'react-bootstrap';
 import './Footer.css'
 
 const Footer = () => {
+
+
+    const home = <FontAwesomeIcon icon={faHome} />
+    const doctor = <FontAwesomeIcon icon={faUserMd} />
+    const contact = <FontAwesomeIcon icon={faIdBadge} />
+    const aboute = <FontAwesomeIcon icon={faAddressCard} />
+
+    const telepone = <FontAwesomeIcon icon={faPhoneSquareAlt} />
+    const gmail = <FontAwesomeIcon icon={faEnvelope} />
+    const location = <FontAwesomeIcon icon={faMapMarkedAlt} />
+    const road = <FontAwesomeIcon icon={faRoad} />
+
+
+
+
     return (
+
         <>
             <div className='footer' >
 
@@ -18,10 +36,10 @@ const Footer = () => {
                                 <ul className='navigator' >
 
 
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Doctors</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Aboute</a></li>
+                                    <li>{home}<a href="#"> Home</a></li>
+                                    <li>{doctor}<a href="#">   Doctors</a></li>
+                                    <li>{contact}<a href="#"> Contact</a></li>
+                                    <li>{aboute}<a href="#"> Aboute</a></li>
 
 
 
@@ -49,10 +67,10 @@ const Footer = () => {
                         <Col>
                             <Stack >
                                 <h2 className='Footer-header' id='contact'>CONTACT INFO</h2>
-                                <p>23/2, Khilji Road, Block-B,</p>
-                                <p>Shyamoli, Dhaka-1207</p>
-                                <p>info@hdclbd.com</p>
-                                <p>10662 </p>
+                                <p>{road}  23/2, Khilji Road, Block-B,</p>
+                                <p>{location}  Shyamoli, Dhaka-1207</p>
+                                <p>{gmail}  info@hdclbd.com</p>
+                                <p>{telepone}  10662 </p>
                             </Stack>
                         </Col>
 

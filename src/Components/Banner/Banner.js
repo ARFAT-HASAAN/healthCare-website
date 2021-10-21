@@ -1,10 +1,16 @@
 import React from 'react';
 import './Banner.css'
+
+
+
 import { Carousel, Col, Row, Container } from 'react-bootstrap';
 import doctors from '../../Images/BannerImg/group-doctors (5).png'
 
 
 const Banner = () => {
+
+
+
     return (
 
         <div className='banner'>
