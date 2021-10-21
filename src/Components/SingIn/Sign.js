@@ -17,16 +17,36 @@ const Sign = () => {
         getName,
         NewUser,
         error,
-        getPhoto
+        getPhoto,
+        setUserName
     } = UseAuth()
-    console.log(NewUser)
+
+
+    const history = useHistory()
+    const location = useLocation()
+
+    const redirect_url = location.state?.from || '/home'
     return (
         <div className='regester-form'>
 
             <div className='form-container'>
                 <h2>Please Sign up</h2>
                 <p className='error'>{error} </p>
-                <form onSubmit={NewUser} >
+                <form onSubmit={(e) => {
+
+                    e.preventDefault();
+                    NewUser()
+                        .then((result) => {
+                            setUserName();
+
+                            history.push(redirect_url);
+                        })
+
+                }}
+
+
+
+                >
 
                     <input onBlur={getName} type="text" name='name' id="name"
                         placeholder='Name' />

@@ -82,16 +82,14 @@ const UseFiebase = () => {
 
 
     // create new user 
-    const NewUser = e => {
-        e.preventDefault();
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((result) => {
+    const NewUser = () => {
 
-                setUser(result?.user)
-                setUserName()
-            })
+        return createUserWithEmailAndPassword(auth, email, password)
 
-
+            .catch((err) => {
+                const errorMessage = err.message;
+                setError(errorMessage);
+            });
 
     }
 
@@ -114,7 +112,7 @@ const UseFiebase = () => {
             displayName: name,
             photoURL: photo,
         }).then((result) => {
-            // setUser(result?.user)
+            // setUser(auth?.currentUser)
 
         }).catch((error) => {
             setError(error)
@@ -146,7 +144,8 @@ const UseFiebase = () => {
         NewUser,
         signInWithEmail,
         error,
-        getPhoto
+        getPhoto,
+        setUserName
 
 
 
