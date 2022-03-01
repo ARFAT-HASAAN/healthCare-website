@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Health Check",
+        "aboute": "The NHS Health Check is a health check-up for adults in England aged 40 to 74. It's designed to spot early signs of stroke, kidney disease, heart disease, type 2 diabetes or dementia. As we get older, we have a higher risk of developing one of these conditions. An NHS Health Check helps find ways to lower this risk.",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/gWCPjyw/service-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Operation Theater",
+        "aboute": "Operating rooms are spacious, in a cleanroom, and well-lit, typically with overhead surgical lights, and may have viewing screens and monitors. Operating rooms are generally windowless, though windows are becoming more prevalent in newly built theatres to provide clinical teams with natural light, and feature controlled temperature and humidity. Special air handlers filter the air and maintain a slightly elevated pressure. Electricity support has backup systems in case of a black-out. Rooms are supplied with wall suction, oxygen, and possibly other anesthetic gases. Key equipment consists of the operating table and the anesthesia cart. In addition, there are tables to set up instruments. There is storage space for common surgical supplies. There are containers for disposables. Outside the operating room, or sometimes integrated within, is a dedicated scrubbing area that is used by surgeons, anesthetists, ODPs (operating department practitioners), and nurses prior to surgery. An operating room will have a map to enable the terminal cleaner to realign the operating table and equipment to the desired layout during cleaning. Operating rooms are typically supported by an anaesthetic room, prep room, scrub and a dirty utility room.[1]",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/ZJkGY56/service-1.png"
+    },
+    {
+        "id": 3,
+        "title": "Pharmacy Support",
+        "aboute": "Medicine is the science and practice of establishing the diagnosis, prognosis, treatment, and prevention of disease. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness.",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/ZGxnkVs/service-2.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Lat Tests",
+        "aboute": "The Law Admission Test (LAT) is a professionally designed and scored selection test developed by the Australian Council for Educational Research (ACER) to assess the types of aptitudes and skills that are critical to success in tertiary Law programs. These aptitudes and skills include the ability to think critically, to analyse information, and to organise and express ideas in a clear and fluent way.",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/sHhGL7R/service-4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Ambulance Car",
+        "aboute": "mbulance Service in Dhaka. Different types of ambulances are available in Dhaka City. You can hire freezer van in a moment. You can also rent AC or non AC ambulances to get to the hospital at proper time. You may face convenience of hiring air ambulance as well. We provide services in all corners of Dhaka and you can rely on us for quick response.",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/F6yLKbt/service-5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Intensive Care",
+        "aboute": "Intensive Care is the publication platform for the communication and exchange of current work and ideas in intensive care medicine. It is intended for all those who are involved in intensive medical care, physicians, anaesthetists, surgeons, pediatricians, as well as those concerned with pre-clinical subjects and medical sciences basic to these disciplines.",
+        "desc": "We offer extensive medical procedures to outbound & inbound patients what it is and we are very proud achievement staff.",
+        "img": "https://i.ibb.co/XD7xpyV/service-3.jpg"
+    }
+]
