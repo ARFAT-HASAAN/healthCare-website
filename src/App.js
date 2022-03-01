@@ -58,7 +58,7 @@ function App() {
               <Select></Select>
             </Route>
 
-            <Route exact path="*">
+            <Route path="*">
               <Notfound></Notfound>
             </Route>
           </Switch>
