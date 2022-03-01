@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/healthCare-website/static/css/main.0f97c630.css",
+    "main.js": "/healthCare-website/static/js/main.9ac32173.js",
+    "static/js/787.69b25d21.chunk.js": "/healthCare-website/static/js/787.69b25d21.chunk.js",
+    "static/media/magicpattern-blob-1645449787935.png": "/healthCare-website/static/media/magicpattern-blob-1645449787935.789b2b1d8ee6e178a342.png",
+    "static/media/Notfound.png": "/healthCare-website/static/media/Notfound.f9fb7aeb98e6c8b35658.png",
+    "static/media/doctors.png": "/healthCare-website/static/media/doctors.d3c17c7db8daf4e8d114.png",
+    "static/media/5124557-ai.png": "/healthCare-website/static/media/5124557-ai.4cd145a0242a4413aef8.png",
+    "static/media/doc.jpg": "/healthCare-website/static/media/doc.dd31fe1017fd45159874.jpg",
+    "static/media/Department (5).jpg": "/healthCare-website/static/media/Department (5).a248749a4408129bce28.jpg",
+    "static/media/gallery (4).jpg": "/healthCare-website/static/media/gallery (4).8e73d2c7007817ec001b.jpg",
+    "static/media/gallery (3).jpg": "/healthCare-website/static/media/gallery (3).3f8ff48fa79895c7cced.jpg",
+    "static/media/gallery (2).jpg": "/healthCare-website/static/media/gallery (2).4a377f058a688b5cb204.jpg",
+    "static/media/gallery (6).jpg": "/healthCare-website/static/media/gallery (6).b2a042fbebdb58f44ae1.jpg",
+    "static/media/gallery (5).jpg": "/healthCare-website/static/media/gallery (5).46143fa7730d173891b9.jpg",
+    "static/media/doctor (3).jpg": "/healthCare-website/static/media/doctor (3).8b0745bbcff9d8158bed.jpg",
+    "static/media/Department (2).jpg": "/healthCare-website/static/media/Department (2).190c684141071dccf5d1.jpg",
+    "static/media/gallery (1).jpg": "/healthCare-website/static/media/gallery (1).6da4547a09b53dd57a94.jpg",
+    "static/media/Department (6).jpg": "/healthCare-website/static/media/Department (6).1a8a6d76c965bf7caf8a.jpg",
+    "static/media/Department (4).jpg": "/healthCare-website/static/media/Department (4).88679607e410322bc1fd.jpg",
+    "static/media/doctor (1).jpg": "/healthCare-website/static/media/doctor (1).c997f3590c427523a864.jpg",
+    "static/media/Department (1).jpg": "/healthCare-website/static/media/Department (1).d6c05e57500991b0f317.jpg",
+    "static/media/Department (3).jpg": "/healthCare-website/static/media/Department (3).d09828c3e6121085547f.jpg",
+    "static/media/doctor (2).jpg": "/healthCare-website/static/media/doctor (2).050f12e5284112e35808.jpg",
+    "static/media/istockphoto-1347326729-170667a.jpg": "/healthCare-website/static/media/istockphoto-1347326729-170667a.0d1a01d68855429ef9b5.jpg",
+    "static/media/doctor (4).jpg": "/healthCare-website/static/media/doctor (4).c01222d4e686a7608ece.jpg",
+    "index.html": "/healthCare-website/index.html",
+    "main.0f97c630.css.map": "/healthCare-website/static/css/main.0f97c630.css.map",
+    "main.9ac32173.js.map": "/healthCare-website/static/js/main.9ac32173.js.map",
+    "787.69b25d21.chunk.js.map": "/healthCare-website/static/js/787.69b25d21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f97c630.css",
+    "static/js/main.9ac32173.js"
+  ]
+}
