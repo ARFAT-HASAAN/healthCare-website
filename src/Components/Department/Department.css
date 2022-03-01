@@ -1,20 +1,24 @@
-.department{ background-color: #000046;
-             padding: 50px 0px; }
+.department {
+  background-color: #ffff;
+  padding: 50px 0px;
+}
 
+.department-intro h2 {
+  font-size: 3rem;
 
-.department-intro h2{ font-size: 3rem;
-                      
-                      color: white;
-                      
-                      font-weight: bold;
-                      text-align: center;
-                       padding: 20px 0px;
-                       }
+  /* color: white; */
 
-.hr{ border-bottom: 4px solid white; }
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.hr {
+  border-bottom: 4px solid black;
+}
 
 @media only screen and (max-width: 600px) {
-  
-    .department{padding: 10px 0px;}
-   
+  .department {
+    padding: 10px 0px;
+  }
 }

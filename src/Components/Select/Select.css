@@ -1,0 +1,10 @@
+#thumsup {
+  /* padding: 100px; */
+  /* margin: auto; */
+  width: 70%;
+  margin: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../Images/logo/istockphoto-1347326729-170667a.jpg");
+}

@@ -1,0 +1,10 @@
+.contactbanner img {
+  width: 100%;
+}
+.semibanner {
+  background-color: #60a8ff;
+  color: white;
+  background-image: url(../../Images/BannerImg/doc.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}

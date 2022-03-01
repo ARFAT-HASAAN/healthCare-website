@@ -1,53 +1,55 @@
-.footer{
-    background-color:#093028;
-    color: white;
-    box-sizing: border-box;
-   
-    
+.footer {
+  background-color: #3d93ff;
+  color: white;
+  box-sizing: border-box;
 }
 
 /* .details {
     padding: 50px 50px 20px 50px;
 } */
 
-.about-section{text-align: center;
-               padding: 0px 10px;}
-.about-text{ font-family: 'Source Serif Pro', serif;
-             font-size: 1.2rem;  }
-.Footer-header{
-      font-family: 'Source Serif Pro', serif;
-      font-size: 2rem;
-      font-weight: bold;
-     
- }
-
-
-.navigator{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.about-section {
+  text-align: center;
+  padding: 0px 10px;
 }
-.navigator li a{
-           display: inline-block;
-          text-decoration: none;
-          color: white;
-          padding-left: 7px;
-          margin-bottom: 20px;
+.about-text {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.2rem;
+}
+.Footer-header {
+  font-family: "Source Serif Pro", serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.copyRight{background-color: #f8f9fa;
-           color: rgb(17, 15, 15);
-           text-align: center;}
-.copyRight p{
-    font-weight: bold;
-    font-size: 1.1rem;
+.navigator {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigator li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-left: 7px;
+  margin-bottom: 20px;
+}
+
+.copyRight {
+  background-color: white;
+  color: rgb(17, 15, 15);
+  text-align: center;
+}
+.copyRight p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
     text-align: center;
-    padding: 20px;
-}
-
- @media only screen and (max-width: 600px) {
-
-   .footer{text-align: center;
-            padding: 20px 0px;}
-   
+    padding: 20px 0px;
+  }
 }
