@@ -16,11 +16,15 @@
 
 ### installation
 
-`npm install`
+```js
+ npm install
+```
 
 ### Running the app
 
-` npm start`
+```js
+npm start
+```
 
 ### Technology that i had used to make the website
 
@@ -33,7 +37,7 @@
 
 - [x] Authentication
 - [x] Private Route
-- [] Rest Api
+- [ ] Rest Api
 - [x] CSS Famework
 - [x] Costom Hooks
 - [x] Context Api
