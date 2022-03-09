@@ -8,7 +8,7 @@ const Privatroute = ({ children, ...rest }) => {
     const { user, isloading } = UseAuth()
 
     if (isloading) {
-        return <Spinner animation="grow" variant="dark" />
+        return <Spinner animation="grow" variant="dark" /> || "loading..."
     }
     return (
         <Route
